@@ -98,7 +98,7 @@ export default function WhyHappyAI() {
                 <div>
                   <h4 className="font-bold text-yellow-800 mb-1">고품질 보장</h4>
                   <p className="text-yellow-700 text-sm">
-                    "고품질 결과" 제공을 위해 <strong>매달 제한된 양의 주문만</strong> 받고 있습니다.
+                    &ldquo;고품질 결과&rdquo; 제공을 위해 <strong>매달 제한된 양의 주문만</strong> 받고 있습니다.
                   </p>
                 </div>
               </div>

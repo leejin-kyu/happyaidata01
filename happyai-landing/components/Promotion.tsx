@@ -157,7 +157,7 @@ export default function Promotion() {
                 고품질 보장
               </h3>
               <p className="text-gray-600 text-sm">
-                "고품질 결과" 제공을 위해 매달 제한된 양의 주문만 받고 있습니다.
+                &ldquo;고품질 결과&rdquo; 제공을 위해 매달 제한된 양의 주문만 받고 있습니다.
               </p>
             </div>
             <div className="bg-white rounded-2xl p-6 shadow-lg text-center">

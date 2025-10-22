@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server'
+import nodemailer from 'nodemailer'
 
 export async function POST(request: Request) {
   try {
@@ -20,7 +21,6 @@ ${message}
 
     // nodemailer 설정 (환경 변수 필요)
     // 실제 운영 환경에서는 SMTP 설정이나 이메일 서비스(SendGrid, AWS SES 등) 사용 필요
-    const nodemailer = require('nodemailer')
 
     const transporter = nodemailer.createTransport({
       service: 'gmail', // 또는 다른 이메일 서비스

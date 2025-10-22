@@ -1,6 +1,6 @@
 'use client'
 
-import { Building2, GraduationCap, FlaskConical, BookOpen } from 'lucide-react'
+import { Building2, FlaskConical, BookOpen } from 'lucide-react'
 
 export default function TargetAudience() {
   return (
