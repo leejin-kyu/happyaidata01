@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd happyai-landing && npm run build",
+  "outputDirectory": "happyai-landing/.next",
+  "installCommand": "cd happyai-landing && npm install"
+}
