@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko">
-      <head>
+      <body>
         {/* Google Analytics 4 */}
         {GA_TRACKING_ID && (
           <>
@@ -46,8 +46,6 @@ export default function RootLayout({
             />
           </>
         )}
-      </head>
-      <body>
         <Analytics />
         {children}
       </body>
